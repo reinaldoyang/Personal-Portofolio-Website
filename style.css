@@ -196,6 +196,11 @@ section {
     text-align:center;
 }
 
+.subtitle{
+    font-size:1.5rem;
+    text-align: center;
+}
+
 #socials-container{
     display:flex;
     justify-content: center;
@@ -233,11 +238,52 @@ section {
 }
 
 /* ABOUT SECTION */
+.work-experience-list{
+    list-style: none;
+    justify-items: center;
+}
 
+.work-experience-container{
+    padding:50px;
+}
 
+/* EXPERIENCE SECTION */
+
+/* PROJECT SECTION */
+.project-img{
+    border-radius: 2rem;
+    width:90%;
+    height:90%
+}
 
 /* CONTACT SECTION */
 #contacts{
     display:flex;
     height:70vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-info-upper-container{
+    display:flex;
+    justify-content: center;
+    border:0.1rem solid rgb(53, 53, 53);
+    border-radius: 2rem;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    /* gap:0.5rem; */
+    margin:1rem;
+}
+.contact-icon{
+    cursor:default;
+}
+
+.email-icon{
+    height:2.5rem;
 }
