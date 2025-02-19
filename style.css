@@ -183,7 +183,7 @@ section {
 }
 
 .section_text_p1{
-    align-self:center;
+    text-align:center;
 }
 
 .section_text_p2{
@@ -223,4 +223,21 @@ section {
 
 .btn-download-resume, .btn-contact{
     border: rgb(53, 53, 53) 0.1rem solid;
+    background-color:white
+}
+
+.btn-download-resume:hover, .btn-contact:hover{
+    cursor:pointer;
+    background-color: black;
+    color:white
+}
+
+/* ABOUT SECTION */
+
+
+
+/* CONTACT SECTION */
+#contacts{
+    display:flex;
+    height:70vh;
 }
