@@ -238,6 +238,13 @@ section {
 }
 
 /* ABOUT SECTION */
+.about-containers{
+    gap:2rem;
+    margin-bottom: 2rem;
+    margin-top:2rem;
+    display:flex;
+}
+
 .work-experience-list{
     list-style: none;
     justify-items: center;
@@ -250,6 +257,29 @@ section {
 /* EXPERIENCE SECTION */
 
 /* PROJECT SECTION */
+.projects-container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-detail-containers{
+    padding: 1.5rem;
+    justify-content: center;
+    border: solid 0.1rem rgb(53, 53, 53);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.color-container{
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250)
+}
+
+.project-img-container{
+    gap:2.5rem;
+}
+
 .project-img{
     border-radius: 2rem;
     width:90%;
