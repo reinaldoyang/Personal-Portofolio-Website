@@ -156,6 +156,14 @@ section {
 
 .section-container{
     display: flex;
+    height:80%
+}
+
+.section-pic-container{
+    display:flex;
+    height:400px;
+    width:400px;
+    margin:auto 0;
 }
 
 /* PROFILE SECTION */
@@ -238,6 +246,32 @@ section {
 }
 
 /* ABOUT SECTION */
+#about{
+    position:relative;
+}
+
+.about-pic{
+    border-radius: 2rem;
+}
+
+.arrow{
+    position:absolute;
+    right:-5rem;
+    bottom:2.5rem;
+}
+
+.about-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-container{
+    display:flex;
+    gap:4rem;
+    height:80%;
+}
+
 .about-containers{
     gap:2rem;
     margin-bottom: 2rem;
@@ -245,30 +279,46 @@ section {
     display:flex;
 }
 
-.work-experience-list{
-    list-style: none;
-    justify-items: center;
+.details-container{
+    padding: 1.5rem;
+    flex:1;
+    background:white;
+    justify-content: center;
+    border: solid 0.1rem rgb(53, 53, 53);
+    border-radius: 2rem;
+    text-align: center;
 }
 
-.work-experience-container{
-    padding:50px;
-}
 
 /* EXPERIENCE SECTION */
+.experience-sub-title{
+    color: rgb(85, 85, 85);
+    font-size:1.75rem;
+    font-weight: 600;
+    margin-bottom:2rem;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-direction: row;
+    gap:2.5rem;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+article{
+    display:flex;
+    width: 10rem;
+    justify-content: center;
+    gap:0.5rem;
+}
 
 /* PROJECT SECTION */
 .projects-container{
     display:flex;
     justify-content: center;
     flex-direction: column;
-}
-
-.project-detail-containers{
-    padding: 1.5rem;
-    justify-content: center;
-    border: solid 0.1rem rgb(53, 53, 53);
-    border-radius: 2rem;
-    text-align: center;
 }
 
 .color-container{
@@ -282,8 +332,8 @@ section {
 
 .project-img{
     border-radius: 2rem;
-    width:90%;
-    height:90%
+    width: 300px;
+    height:250px;
 }
 
 /* CONTACT SECTION */
