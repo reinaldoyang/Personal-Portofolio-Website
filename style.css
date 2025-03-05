@@ -156,14 +156,6 @@ section {
 
 .section-container{
     display: flex;
-    height:80%
-}
-
-.section-pic-container{
-    display:flex;
-    height:400px;
-    width:400px;
-    margin:auto 0;
 }
 
 /* PROFILE SECTION */
@@ -267,7 +259,6 @@ section {
 }
 
 .section-container{
-    display:flex;
     gap:4rem;
     height:80%;
 }

@@ -19,4 +19,50 @@
     #hamburger-nav{
         display:flex;
     }
+    #profile, .section-container{
+        display:block;
+    }
+    section, .section-container{
+        height:fit-content;
+    }
+
+    section{
+        margin: 0 5%;
+    }
+
+    .section_pic-container{
+        width:275px;
+        height:275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers{
+        margin-top:0;
+    }
+}
+
+@media screen and (max-width:600px){
+    #profile{
+        height: 83vh;
+        margin-bottom:0;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+
+    .about-containers, 
+    .contact-info-upper-container,
+    .btn-container{
+        flex-wrap: wrap;
+    }
+
+    .section_pic-container{
+        width: auto;
+        justify-content: center;
+    }
+
+    .text-container{
+        text-align: jusitfy;
+    }
+
 }
