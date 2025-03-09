@@ -26,6 +26,9 @@
         height:fit-content;
     }
 
+    .arrow{
+        display: none;
+    }
     section{
         margin: 0 5%;
     }
@@ -60,9 +63,19 @@
         width: auto;
         justify-content: center;
     }
-
+    
+    .nav-links{
+        flex-direction:column;
+        gap:0.5rem;
+        text-align: center;
+    }
     .text-container{
-        text-align: jusitfy;
+        text-align: justify;
+    }
+
+    footer nav{
+        height:fit-content;
+        margin-bottom: 2rem;
     }
 
 }
